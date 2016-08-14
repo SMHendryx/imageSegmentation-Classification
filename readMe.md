@@ -9,9 +9,9 @@ The non-subsetted image used in this analysis is shown here:
 
 **Initial Segmentation/Super-Pixel Construction**
 
-The image was initially segmented into superpixels using simple linear iterative clustering (SLIC). The required input parameters are the image and the desired number of segments.
+The image was initially segmented into superpixels using simple linear iterative clustering (SLIC) and the implementation is contained in the script: slicImageSegmentation.py. The required input parameters are the image and the desired number of segments.
 
-The full, non-subsetted image was segmented into 100, 200, and 300 segments/superpixels as exemplified here:
+The full, non-subsetted image is segmented into 100, 200, and 300 segments/superpixels as exemplified here:
 ![superpixels_of_--_100_segments.png](outputGraphics/superpixels_of_--_100_segments.png "100 superpixels")
 
 **Expectation Maximization of Gaussian Mixture Models**
