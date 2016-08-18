@@ -1,8 +1,6 @@
 __author__ = 'seanhendryx'
 
 # Sean Hendryx
-# Graduate Student
-# INFO 510: Bayesian Modeling & Inference
 # Script built to run on Python version 3.4
 # References:
 # scipy.cluster.vq.kmeans: Centroids used to initialize mu vectors  <http://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.vq.kmeans.html#scipy.cluster.vq.kmeans>
